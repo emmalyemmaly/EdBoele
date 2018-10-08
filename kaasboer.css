@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+*{
+  box-sizing: border-box;
+}
+html, body{
+  font-family: 'Montserrat', Arial, sans-serif;
+  height: 100%;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+header{
+  background-image: url("katrin-leinfellner-571533-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-color: white;
+  display: grid;
+  min-height: 200px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+}
+.titels{
+  font-size: 90%;
+  text-align: center;
+}
+.edboele{
+  grid-column: 2/4;
+  grid-row: 2/3;
+  opacity: 0.8;
+  font-size: 200%;
+  border-radius: 10%;
+  text-align: center;
+  padding: 5%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.kaasspecialist{
+  font-size: 50%;
+}
+.logocheese{
+  width: 30%;
+  margin-bottom: 10%;
+}
+.titel{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 110%;
+  background-color: #FFC42D;
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.beste{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #FFC42D;
+  text-align: center;
+}
+.bestekaasspecialist{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  height: 100%;
+  background-color: #FAA945;
+}
+.verklaring{
+  width: 100%;
+  margin-top: 80%;
+}
+.kleurbloktekst{
+  background-color: #F7DC6F;
+}
+.fotopiemonte{
+  width: 100%;
+  margin-top: 15%;
+  display: block;
+}
+.welkomsttekst{
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-color: #F17852;
+  padding: 3%;
+  text-align: center;
+}
+.webblog{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #F8B06C;
+  text-align: center;
+}
+.tekst{
+  font-size: 70%;
+}
+.nieuwsbrief{
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: #FDED5D;
+  text-align: center;
+}
+.nieuwsicon{
+  width: 15%;
+  margin: 5%;
+}
+.hetteam{
+  background-color: #F17852;
+  grid-column: 1/3;
+  grid-row: 5/6;
+  text-align: center;
+}
+.fototeam{
+  width: 100%;
+  display: block;
+}
+.fotovanhetteam{
+  text-align: center;
+  background-color: #F17852;
+  grid-column: 1/3;
+  grid-row: 6/7;
+  display: block;
+}
+.socialmedia{
+  grid-column: 1/3;
+  grid-row: 7/8;
+  background-color: #FFC42D;
+  text-align: center;
+}
+footer{
+  grid-column: 1/3;
+  grid-row: 7/8;
+}
+.twitter{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.icons{
+  width: 15%;
+}
+
+@media (min-width: 480px) {
+.titels{
+  font-size: 130%;
+}
+header{
+  height: 300px;
+}
+.tekst{
+  font-size: 90%;
+}
+
+
+@media (min-width: 768px) {
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+.edboele{
+  font-size: 250%;
+}
+.nieuwsbrief{
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.nieuwsicon{
+  width: 42%;
+  margin-top: 10%;
+}
+header{
+grid-column: 1/4;
+grid-row: 1/4;
+height: 400px;
+}
+.beste{
+  grid-column: 2/4;
+  grid-row: 4/5;
+  text-align: center;
+}
+.logocheese{
+  width: 20%;
+  margin-bottom: 10%;
+}
+.kaasspecialist{
+font-size: 60%;
+}
+.welkomsttekst{
+  grid-column: 1/2;
+  grid-row: 4/6;
+}
+.webblog{
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.hetteam{
+  grid-column: 3/4;
+  grid-row: 6/7
+}
+.fototeam{
+  width: 80%;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.fotovanhetteam{
+  grid-column: 1/3;
+  grid-row: 6/7;
+  background-color: #F17852;
+}
+.socialmedia{
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+.tekst{
+  font-size: 110%;
+}
+.titels{
+  font-size: 140%;
+}
+
+@media (min-width: 1024px) {
+header{
+  height: 500px;
+}
+.edboele{
+  font-size: 350%;
+}
+.tekst{
+    font-size: 140%
+}
+.titels{
+    font-size: 190%;
+}
+.logocheese{
+  width: 15%;
+}
+.icons{
+  width: 10%;
+}
+
+
+#FCF3CF
+#F9E79F
+#F7DC6F
+#F4D03F
+#F1C40F
