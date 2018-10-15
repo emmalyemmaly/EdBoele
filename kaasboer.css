@@ -15,7 +15,7 @@ header{
   background-image: url("katrin-leinfellner-571533-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.7;
   grid-column: 1/3;
   grid-row: 1/2;
   background-color: white;
@@ -27,6 +27,7 @@ header{
 .titels{
   font-size: 90%;
   text-align: center;
+  padding: 1%;
 }
 .edboele{
   grid-column: 2/4;
@@ -42,10 +43,6 @@ header{
 .kaasspecialist{
   font-size: 50%;
 }
-.logocheese{
-  width: 30%;
-  margin-bottom: 10%;
-}
 .titel{
   grid-column: 1/2;
   grid-row: 2/3;
@@ -57,8 +54,17 @@ header{
 .beste{
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: #FFC42D;
-  text-align: center;
+  background-image: url("cheesehere.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  height: 100%;
+  color: #f8f1e5;
+}
+.tekstbeste{
+  width: 20%;
+  margin-left: 50%;
+  font-size: 130%;
 }
 .bestekaasspecialist{
   grid-column: 1/2;
@@ -81,7 +87,7 @@ header{
 .welkomsttekst{
   grid-column: 1/2;
   grid-row: 2/4;
-  background-color: #F17852;
+  background-color: #FDED5D;
   padding: 3%;
   text-align: center;
 }
@@ -93,11 +99,13 @@ header{
 }
 .tekst{
   font-size: 70%;
+  padding: 3%;
+  line-height: 30px;
 }
 .nieuwsbrief{
   grid-column: 1/3;
   grid-row: 4/5;
-  background-color: #FDED5D;
+  background-color: #F17852;
   text-align: center;
 }
 .nieuwsicon{
@@ -105,7 +113,7 @@ header{
   margin: 5%;
 }
 .hetteam{
-  background-color: #F17852;
+  background-color: #FDED5D;
   grid-column: 1/3;
   grid-row: 5/6;
   text-align: center;
@@ -124,19 +132,20 @@ header{
 .socialmedia{
   grid-column: 1/3;
   grid-row: 7/8;
-  background-color: #FFC42D;
+  background-color: #F8B06C;
   text-align: center;
+  padding: 2%;
 }
 footer{
   grid-column: 1/3;
   grid-row: 7/8;
 }
 .twitter{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .icons{
-  width: 15%;
+  width: 10%;
 }
 
 @media (min-width: 480px) {
@@ -149,7 +158,10 @@ header{
 .tekst{
   font-size: 90%;
 }
-
+.tekstbeste{
+  font-size: 150%;
+  width: 40%;
+}
 
 @media (min-width: 768px) {
 .gridcontainer{
@@ -176,14 +188,17 @@ height: 400px;
 .beste{
   grid-column: 2/4;
   grid-row: 4/5;
-  text-align: center;
+  text-align: right;
+}
+.tekstbeste{
+  font-size: 170%;
 }
 .logocheese{
   width: 20%;
   margin-bottom: 10%;
 }
 .kaasspecialist{
-font-size: 60%;
+  font-size: 60%;
 }
 .welkomsttekst{
   grid-column: 1/2;
@@ -230,18 +245,17 @@ header{
     font-size: 140%
 }
 .titels{
-    font-size: 190%;
+    font-size: 200%;
 }
 .logocheese{
   width: 15%;
 }
 .icons{
-  width: 10%;
+  width: 7%;
 }
-
-
-#FCF3CF
-#F9E79F
-#F7DC6F
-#F4D03F
-#F1C40F
+.beste{
+  height: 300px;
+}
+.tekstbeste{
+  font-size: 220%;
+}
